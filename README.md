@@ -13,8 +13,12 @@ At peak times, twitter sometimes refuses to connect so not all downloads are suc
 store the ones which are successful and ask you to try again later. Each time you run the script it will ignore
 previous successes and you should get a bit more data until you have everything
 
-6. Add Twitter usernames and personal data at the bottom of bayes.pl
-7. Run "perl bayes.pl"
+6. Run "perl timeline.pl username" to print all tweets in the timeline file for username (each tweet printed includes date and id)
+
+7. Run "perl tweet.pl username id" to dump the tweet id in the timeline file for username
+
+8. Add Twitter usernames and personal data at the bottom of bayes.pl
+9. Run "perl bayes.pl"
 
 This will...
 
